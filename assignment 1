@@ -1,0 +1,156 @@
+Part 1: Introduction to Software Engineering
+
+QUESTION: Explain what software engineering is and discuss its importance in the technology industry
+ANSWER:
+Software engineering is an engineering branch associated with development of high quality software product using well defined scientific principles, methods and procedures.
+It involves the design, development, testing, deployment, and maintenance of software products.
+ITS IMPORTANCE IN THE TECHNOLOGY INDUSTRY :
+Software engineering plays a crucial role in the technology industry by enabling the creation of software applications and systems that power various aspects of modern life, 
+including communication, commerce, entertainment, and healthcare. Basically it is used to endorse efficiency and proficiency across all walks of life.
+
+QUESTION:
+Identify and describe at least three key milestones in the evolution of software engineering.
+ANSWER:
+Milestones include the development of programming languages (e.g., Fortran, C)
+The establishment of software engineering as a discipline in the 1960s
+The advent of structured programming in the 1970s, and the rise of agile methodologies in the 2000s.
+
+
+
+QUESTION: List and briefly explain the phases of the Software Development Life Cycle.
+ANSWER:
+1. REQUIREMENTS PHASE
+This is when the goal/scope of the project is defined, the objectives are outlined and established, the schedule/timelines are established along with the resources that will be needed to be allocated for the duration of project. 
+Questions such as WHAT are we making, WHY are we making it and HOW are we making it and for how long are we making it are asked and answered.
+This ensures that all participants have a clear understanding of what needs to be done and how to achieve it through the gathering and documenting of user needs and system requirements.
+2. SYSTEM DESIGN PHASE
+The system design phase includes creating the software's architecture and design. Based on the requirements gathered during planning, the team creates a blueprint outlining how the software will function.
+This includes high-level architecture and detailed design specifications, including user interface design to ensure the software is user-friendly,an assessment of requirements for compatibility with existing products.
+3. IMPLEMENTATION PHASE
+The implementation phase, also known as the development phase, transforms the design into a functional application. This mainly includes writing code and building the software according to the design specifications.
+It is here that the actual coding takes place. Developers write the code based on the design specifications, following best practices and coding standards to ensure the result is efficient, secure, and maintainable.
+4. TESTING PHASE 
+The testing phase is critical because it generates essential performance and usability feedback while revealing defects and quirks. 
+Various types of software testing can be used, including automated testing, unit testing, integration testing, and system testing. 
+The goal is to identify and fix bugs, ensuring the software operates as intended before being deployed to users.
+5. DEPLOYMENT PHASE 
+Once internal software testing is complete, the solution can be deployed to end users. This typically includes a beta-testing phase or pilot launch, limited to a select group of real-world users. 
+Depending on the project's needs, deployment can be done on-premise or in the cloud. The deployment strategy determines how easily users can access and use the software.
+6. MAINTENANCE PHASE
+Providing ongoing support, updates, and enhancements to the software after deployment.
+
+
+QUESTION: Compare and contrast the Waterfall and Agile methodologies. Provide examples of scenarios where each would be appropriate.
+ANSWER:
+Waterfall methodology : Linear and sequential, each phase is completed before another can be started.
+- there is Low flexibility (It is difficult to implement changes) hence its rigidity
+ changes are hard to incorporate once a phase is complete.
+ - Customer feedback comes late, after the product is developed.
+ - Testing is done at the end of the development process.
+
+Agile methodology :Iterative with customers and incremental, with multiple cycles (sprints). 
+- High flexibility, adapts to changing requirements. It is easier to add new features, changes and updates. 
+- Regular customer feedback is incorporated into every sprint. 
+- Testing is continuous and done after each iteration.
+- Less Predictible and requires significant customer input or interaction
+
+EXAMPLE WHERE THE AGILE METHOD IS APPLICABLE:
+Education and Training Programs:
+Educational programs often need to adapt to the latest research and teaching methods. The agile method facilitates the continuous improvement of curricula and training materials.
+An online education platform can use the agile method to update course content based on student feedback and performance metrics regularly.
+
+EXAMPLES WHERE THE WATERFALL METHOD IS APPLICABLE 
+Manufacturing:
+In manufacturing, teams use the Waterfall project management method to support different manufacturing and production phases and maximize efficiency. 
+For example, an electronic device manufacturer may wait until the assemblers finish their work before preparing the project for packaging.
+
+QUESTION : Describe the roles and responsibilities of a Software Developer, a Quality Assurance Engineer, and a Project Manager in a software engineering team.
+ANSWER:
+Software Developer: developing applications,programs and systems using programming languages and frameworks.
+ - maintaining and updating software to keep it functional. 
+ - collaborating with other team members to ensure best practice when developing software.
+ - reporting to the project manager about the progress of the software development.
+
+Quality Assurance Engineer: Ensures that the project deliverables meet the required standards and satisfy the needs of the customer.
+expectations. Essentially he/she is focused on the quality of the software product, ensuring that it meet the design specification and the meets the need for which is it being created for. The product must be able to solve the problem for which it was created to solve
+ - create development standards and procedures for the programmers to follow
+ - confirm that the software meets the requirement before deployment. 
+ - analyse the product to identify bugs and suggest changes to make them more efficient. 
+ - develop and execute automation scripts using open source tools.
+
+Project Manager - Manages the resouces aspect,financial aspect and the human resources aspect of the Project by assembling and leading the software development team.
+ - discuss the project and it's requirement with the client and software developers.
+ - create blueprint for the project and defines the objectives and scope of the project
+ - tracking/monitoring and communicating information regarding the project milestone(schedule)
+ - deliver the complete software to the client and regularly check its performance(handover and maintenance)
+
+
+QUESTION:Discuss the importance of Integrated Development Environments (IDEs) and Version Control Systems (VCS) in the software development process. Give examples of each.
+ANSWER:
+An integrated development environment (IDE) is a software platform that facilitates the creation of other software applications by providing a space to write, compile, and debug code, sometimes with value-adding tools that reduce development efforts. eg Visual Studio Code (VSCode)
+IMPORTANCE:
+Programming languages have rules for how statements must be structured. Because an IDE knows these rules, it contains many intelligent features for automatically writing or editing the source code.
+An IDE can format the written text by automatically making some words bold or italic, or by using different font colors. These visual cues make the source code more readable and give instant feedback about accidental syntax errors.
+an IDE can make suggestions to complete a code statement when the developer begins typing.
+IDEs increase programmer productivity by performing repeatable development tasks that are typically part of every code change. The following are some examples of regular coding tasks that an IDE carries out.
+An IDE compiles or converts the code into a simplified language that the operating system can understand. - Some programming languages implement just-in-time compiling, in which the IDE converts human-readable code into machine code from within the application.
+The IDE allows developers to automate unit tests locally before the software is integrated with other developers' code and more complex integration tests are run.
+Debugging IDE enables a step through the code, line by line, as it runs and inspect code behavior. IDEs also integrate several debugging tools that highlight bugs caused by human error in real time, even as the developer is typing.
+
+Version Control Systems (VCS) - are software tools that help software teams manage/track changes to source code over time. eg Git
+IMPORTANCE:
+Collaboration: Enables multiple developers to work on the same codebase without conflicts.
+Change Tracking: Records detailed history of changes, allowing easy analysis of each modification. 
+Branching and Merging: Supports creating branches for new features and merging them back into the main code.
+Error Recovery: Allows reverting to previous versions if new changes introduce errors
+
+QUESTION: What are some common challenges faced by software engineers? Provide strategies to overcome these challenges.
+ANSWER:
+-Rapid technological advancement places considerable pressure on software engineers to stay current.
+ Solution: adopting continuous learning practices and using agile methodologies to adapt to emerging trends, keeping their skills sharp in an ever-evolving industry. -
+-Time Constraints - Software engineering is a demanding and time-intensive field, often requiring engineers to work under high pressure to meet tight deadlines.
+ Solution: adopt agile methodologies, such as Scrum, to streamline workflows by dividing large projects into manageable sprints 
+-Limited Infrastructure - limited high-performance software engineering tools and computing platforms and inefficient data storage architectures. 
+ 
+SOLUTIONS :
+Software engineers must rely heavily on a robust infrastructure to perform their jobs effectively.
+Changing Software Requirements - Software requirements are often dynamic and subject to frequent changes, making it challenging for engineers to design and develop solutions that meet users' needs while accounting for future updates and bug fixes. 
+Solution: engineers can adopt approaches like agile development, which emphasizes iterative progress and adaptability, and modular design, which enables flexibility by breaking systems into manageable, independent components.
+Software Security - Programming secure software is a complex and challenging task. 
+Solution: research ways to defend against hacking, malware, phishing, insider and third-party threats
+Software Accessibility and Usability - Overly complex software can frustrate or confuse users. 
+Solution: Use scalable architecture, Emphasize reliability.
+
+QUESTION: Explain the different types of testing (unit, integration, system, and acceptance) and their importance in software quality assurance.
+ANSWER:
+Unit tests - are close to the source of an application, They consist in testing individual methods and functions of the classes, components, or modules used by your software. - it ensures that each unit performs its intended function correctly, isolated from other components.
+ Integration tests - verify that different modules or services used by your application work well together.
+ - help to ensure data flows smoothly between modules and interfaces work as expected.
+ System testing -Focus on the entire software system as a whole, including all functionalities and interactions.
+ -It help to verify that the system meets all functional and non-functional requirements, including performance, usability, and security .
+Acceptance tests - are formal tests that verify if a system satisfies business requirements. They require the entire application to be running while testing and focus on replicating user behaviors. 
+- Whether the software meets the needs of the end-user and is ready for deployment.
+
+Part 2: Introduction to AI and Prompt Engineering
+
+QUESTION: Define prompt engineering and discuss its importance in interacting with AI models.
+ANSWER: 
+Prompt engineering is all about crafting questions or statements to get the best possible responses from AI models. 
+IMPORTANCE:
+Prompt engineering helps avoid vaguity or confusion that by making your questions clear and specific, so the AI understands exactly what you need.
+The below points are explained properly 
+Improved user experience - Prompt engineering makes it easy for users to obtain relevant results in the first prompt. It helps mitigate bias that may be present from existing human bias in the large language models’ training data.
+Increased flexibility - A prompt engineer can create prompts with domain-neutral instructions highlighting logical links and broad patterns.
+developer control - Prompt engineering gives developers more control over users' interactions with the AI. Effective prompts provide intent and establish context to the large language models. 
+Provide an example of a vague prompt and then improve it by making it clear, specific, and concise.
+
+QUESTION: Provide an example of a vague prompt and then improve it by making it clear, specific, and concise. Explain why the improved prompt is more effective.
+ANSWER:
+Less Effective Prompt: “Give me a blog topic about food.”
+
+More Effective Prompt: “I’m looking to write a blog post about unique vegan desserts from around the world. Can you provide a breakdown of five such desserts with their countries of origin and main ingredients?”
+
+Explanation: The first prompt is too general. While it does ask for a topic about food, AI might come up with a wide range of suggestions, which might not align with what you had in mind. 
+The revised prompt narrows down the request to a specific niche within food blogging (vegan desserts) and even provides a format for the desired output (a breakdown of five desserts).
+
+
